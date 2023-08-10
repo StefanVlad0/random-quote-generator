@@ -11,6 +11,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: black;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  
 }
 
 #quote-box {
@@ -18,9 +20,8 @@
   border-radius: 3px;
   padding: 40px 50px;
   max-width: 600px;
-  min-width: 400px;
-  /* margin-left: 550px;
-  margin-right: 550px; */
+  width: 90%; 
+  box-sizing: border-box;
 }
 
 #new-quote {
@@ -28,26 +29,52 @@
   border-radius: 3px;
   border: none;
   color: white;
-  padding: 3px 12px;
+  padding: 12px 12px;
+  cursor: pointer;
+  padding: 0 12px; 
+  height: 48px;
 }
 
 .icon {
-  margin-right: 3px;
   background-color: #282C34;
   border-radius: 3px;
+  height: 48px;
+  padding: 0 12px;
 }
 
 #tweet-quote {
   padding: 3px 12px;
+  display: flex;
+  align-items: center;
 }
 
 #tumblr-quote {
   padding: 3px 16px;
+  display: flex;
+  align-items: center;
 }
 
 #bottom-row {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column; 
+  align-items: center; 
+  gap: 10px; 
+}
+
+#socials {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  #bottom-row {
+    flex-direction: row; 
+    justify-content: space-between; 
+  }
+  #socials {
+    margin-top: 0;
+  }
 }
 
 #author-row {
@@ -58,12 +85,21 @@
 #author {
   color: #282C34;
   font-weight: 450;
-  font-size: 20px;
+  font-size: calc(9px + 1vmin);
   font-family:'Courier New', Courier, monospace;
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 #text {
   color: #282C34;
+  opacity: 1;
+  transition: opacity 1s ease;
+}
+
+#quoteIcon {
+  opacity: 1;
+  transition: opacity 1s ease;
 }
 
 .footer {
@@ -78,3 +114,9 @@
   color: white;
   text-decoration: none;
 }
+
+.icon-transition {
+  transition: background-color 3s ease;
+}
+
+
