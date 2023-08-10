@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Random quote generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+&ensp;
 
-## Available Scripts
+ A simple quote generator written in React.
 
-In the project directory, you can run:
+ &ensp;
 
-### `npm start`
+ ## 🖥️ How to use
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ &ensp;
+ 
+ :exclamation: **You can access the site here:** https://stefanvlad0.github.io/random-quote-generator/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+ &ensp;
 
-### `npm test`
+ <h3>Prefer a Local Setup?</h3>
+ 
+ If you prefer to **run the project locally**, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone this repository to your local machine using the following command:
 
-### `npm run build`
+    ```bash
+     git clone https://github.com/stefanvlad0/random-quote-generator.git
+     ```
+2. Navigate to the project directory:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+    cd random-quote-generator
+    ```
+3. Install the necessary dependencies using either npm (Node Package Manager) or yarn:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+4. Once the dependencies are installed, you can start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    ```bash
+    npm start
+    # or
+    yarn start
+    ```
+5. Open your web browser and go to http://localhost:3000 to see the running application.
 
-### `npm run eject`
+&ensp;
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+ ## :camera: Screenshots
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ![2](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/ddec1a37-c9c9-4654-93d1-8ec9f052be39)
+ ![52](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/ee006ef6-4029-4a89-a7ea-b5f048d25c41)
+ ![32](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/579da299-d2ee-4814-b760-4824330ac98f)
+![42](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/17d6c17d-32a1-425a-a96c-689cde535a6f)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
