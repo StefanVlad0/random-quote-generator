@@ -1,30 +1,55 @@
-import logo from "./logo.svg";
 import "./App.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faTumblr } from "@fortawesome/free-brands-svg-icons";
+import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <div id="quote-box">
-          <p id="text">Text</p>
-          <p id="author">Author</p>
-          <button id="new-quote">New Quote</button>
-          <a id="tweet-quote" href="twitter.com/intent/tweet">
-            Tweet this
+          <FontAwesomeIcon
+            icon={faQuoteLeft}
+            size="s"
+            style={{ color: "black", marginRight: "5px" }}
+          />
+          <span id="text">
+            If you hear a voice within you say “you cannot paint,” then by all
+            means paint and that voice will be silenced.
+          </span>
+          <div id="author-row">
+            <p id="author">- Vincent Van Gogh</p>
+          </div>
+          <div id="bottom-row">
+            <div>
+              <a
+                id="tweet-quote"
+                href="twitter.com/intent/tweet"
+                className="icon"
+              >
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  size="xs"
+                  style={{ color: "white" }}
+                />
+              </a>
+              <a id="tumblr-quote" href="_blanc" className="icon">
+                <FontAwesomeIcon
+                  icon={faTumblr}
+                  size="xs"
+                  style={{ color: "white" }}
+                />
+              </a>
+            </div>
+            <button id="new-quote">New Quote</button>
+          </div>
+        </div>
+        <div className="footer">
+          <a href="https://github.com/StefanVlad0" id="dev">
+            by Vlad Stefan
           </a>
         </div>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
