@@ -48,10 +48,11 @@
 
  ## :camera: Screenshots
 
- ![2](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/ddec1a37-c9c9-4654-93d1-8ec9f052be39)
- ![52](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/ee006ef6-4029-4a89-a7ea-b5f048d25c41)
- ![32](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/579da299-d2ee-4814-b760-4824330ac98f)
-![42](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/17d6c17d-32a1-425a-a96c-689cde535a6f)
+![2](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/0e1221b9-c53e-41c2-8992-f584bbc41dc6)
+![52](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/bafa6609-5ff9-414d-8ecb-4cc299f4a2c1)
+![32](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/344fd065-1aa5-4a2c-bf11-dccb5448d826)
+![42](https://github.com/StefanVlad0/random-quote-generator/assets/72700839/77da6eab-c8d7-45f5-a524-2f5844d9d36f)
+
 
 
 
